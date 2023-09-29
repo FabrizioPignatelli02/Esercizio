@@ -11,37 +11,40 @@ header{
 
 .logo{
     width: 100%;
-    height: 60px;    
+    height: 100px;    
     background-color: black;
 }
 
 .logo img{
-    width: 10%;
-    padding: 13px;
+    width: 11%;
+    padding: 15px;
 }
 
 
 .corso{
     background-image: url(../images/banner.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position:center;
     text-align: center;
     height: 400px;
 }
 
+.scritte{
+    height: 100%;
+    
+}
+
 .corso div{
     width: 50%;
-    height: 100%;
     margin-inline: auto;
 }
 
 .corso h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .corso p{
-    font-size: 14px;
+    font-size: 23px;
 }
 
 
@@ -61,7 +64,7 @@ h3{
     color: #25a2c3 ;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
+    margin: 10px;
 }
 
 
@@ -70,7 +73,7 @@ h4{
     color: #25a2c3 ;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 p{
@@ -78,6 +81,7 @@ p{
     color: #393d41 ;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.65rem;
+    margin: 10px;
 
 }
 
@@ -87,8 +91,8 @@ button{
     color: white;
     background-color: #f04c2f ;
     /* padding: 20px; */
-    width: 120px;
-    height: 35px;
+    width: 125px;
+    height: 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 12px;
@@ -119,43 +123,92 @@ main div{
     margin: 20px;
 }
 
+.prima_parte{
+    width: 40%;
+    height: 100%;
+    /* margin: 50px; */
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.seconda_parte{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.testi{
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+    /* margin: 50px; */
+    box-sizing: content-box;
+    vertical-align: middle;
+}
+
+.testi div{
+    padding: 10px;
+}
+
 .garantisce h2{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
+    margin-top: 30px;
 }
 
 .garantisce p:first-of-type{
     font-style: italic;
-    padding: 20px;
-    font-size: 15px;
+    padding: 30px;
+    font-size: 25px;
     color: white;
 }
 
 .garantisce p:nth-last-of-type(1){
-    font-size: 15px;
+    font-size: 10px;
     color: white;
 }
 
 .garantisce{
     background-color:#e22d0e;
-    padding: 30px;
+    padding: 50px;
     margin: 0;
 }
 
 .garantisce p{ 
     color: white;
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .blocchi div{
     border: 1px solid #dee1e3;
     border-radius: 5px;
     margin: 40px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .blocchi p{
-    font-size: 1rem;
-    margin-bottom: 20px;
-    padding: 10px;
+    font-size: 0.8rem;
+    /* padding: 10px; */
+}
+
+.blocchi{
+    width: 100%;
+    height: 400px;
+    /* display: inline-block; */
+}
+
+.blocchi img{
+    width: 100%;
+    height: 60%;
+    image-rendering: crisp-edges;
 }
 
 /*FOOTER */
