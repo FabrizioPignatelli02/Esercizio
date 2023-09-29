@@ -213,11 +213,14 @@ main div{
 /*FOOTER */
 
 footer div{
-    background-color: #25a2c3;
+    
     text-align: center;
     width: 50%;
 }
 
+footer div:first-child{
+    width: 100%;
+}
 
 
 footer h2{
@@ -229,6 +232,8 @@ footer h2{
 
 footer{
     margin-top: 40px;
+    height: 350px;
+    background-color: #25a2c3;
 }
 
 footer p,a{
@@ -248,7 +253,7 @@ footer p,a{
 .contatti{
     margin-inline: auto;
     text-align: left;
-    width: 25%;
+    width: 16%;
 }
 
 .contatti p{
@@ -263,9 +268,7 @@ footer p,a{
 
 
 
-footer div:first-child{
-    width: 100%;
-}
+
 
 
 
